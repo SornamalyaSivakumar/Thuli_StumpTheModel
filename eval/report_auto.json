@@ -1,0 +1,3468 @@
+{
+  "report": {
+    "n_images": 300,
+    "top1_accuracy": 0.016666666666666666,
+    "top5_accuracy": 0.06666666666666667,
+    "reject_rate": 0.24333333333333335,
+    "latency_ms": {
+      "mean": 7.858966666666666,
+      "median": 7.54,
+      "p95": 9.85
+    },
+    "by_condition": {
+      "motion_blur": {
+        "n": 52,
+        "top1_accuracy": 0.0,
+        "top5_accuracy": 0.038
+      },
+      "low_res": {
+        "n": 49,
+        "top1_accuracy": 0.0,
+        "top5_accuracy": 0.02
+      },
+      "cluttered_background": {
+        "n": 46,
+        "top1_accuracy": 0.0,
+        "top5_accuracy": 0.0
+      },
+      "rotation": {
+        "n": 51,
+        "top1_accuracy": 0.0,
+        "top5_accuracy": 0.0
+      },
+      "partial_occlusion": {
+        "n": 51,
+        "top1_accuracy": 0.0,
+        "top5_accuracy": 0.078
+      },
+      "off_angle_crop": {
+        "n": 49,
+        "top1_accuracy": 0.0,
+        "top5_accuracy": 0.0
+      },
+      "overexposed": {
+        "n": 52,
+        "top1_accuracy": 0.019,
+        "top5_accuracy": 0.077
+      },
+      "low_light": {
+        "n": 51,
+        "top1_accuracy": 0.039,
+        "top5_accuracy": 0.157
+      },
+      "reflection_glare": {
+        "n": 49,
+        "top1_accuracy": 0.041,
+        "top5_accuracy": 0.163
+      }
+    },
+    "by_num_stacked_conditions": {
+      "1": {
+        "n": 150,
+        "top1_accuracy": 0.033
+      },
+      "2": {
+        "n": 150,
+        "top1_accuracy": 0.0
+      }
+    },
+    "n_failures": 295
+  },
+  "failures": [
+    {
+      "file": "auto_0000.jpg",
+      "true_item_id": "SKU002652",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU004588",
+      "top1_similarity": 0.8299204707145691,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0001.jpg",
+      "true_item_id": "SKU003234",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU004169",
+      "top1_similarity": 0.898076057434082,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0002.jpg",
+      "true_item_id": "SKU000593",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU003063",
+      "top1_similarity": 0.91474449634552,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0003.jpg",
+      "true_item_id": "SKU000771",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU001630",
+      "top1_similarity": 0.42920130491256714,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0004.jpg",
+      "true_item_id": "SKU004774",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU005024",
+      "top1_similarity": 0.8664491772651672,
+      "correct_rank": 2,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0005.jpg",
+      "true_item_id": "SKU004156",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU004673",
+      "top1_similarity": 0.45351648330688477,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0006.jpg",
+      "true_item_id": "SKU000307",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003391",
+      "top1_similarity": 0.8341668844223022,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0007.jpg",
+      "true_item_id": "SKU003552",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003250",
+      "top1_similarity": 0.7468041181564331,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0008.jpg",
+      "true_item_id": "SKU000572",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU002389",
+      "top1_similarity": 0.4781210422515869,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0009.jpg",
+      "true_item_id": "SKU000743",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU002257",
+      "top1_similarity": 0.9045570492744446,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0010.jpg",
+      "true_item_id": "SKU003477",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU001468",
+      "top1_similarity": 0.9366095066070557,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0011.jpg",
+      "true_item_id": "SKU004632",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003586",
+      "top1_similarity": 0.919327974319458,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0012.jpg",
+      "true_item_id": "SKU001828",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU002233",
+      "top1_similarity": 0.9264993667602539,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0014.jpg",
+      "true_item_id": "SKU000406",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU002398",
+      "top1_similarity": 0.5650538206100464,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0015.jpg",
+      "true_item_id": "SKU000381",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU004602",
+      "top1_similarity": 0.9631078839302063,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0016.jpg",
+      "true_item_id": "SKU001090",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU004969",
+      "top1_similarity": 0.6358219385147095,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0017.jpg",
+      "true_item_id": "SKU003433",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001983",
+      "top1_similarity": 0.8607671856880188,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0018.jpg",
+      "true_item_id": "SKU004429",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003867",
+      "top1_similarity": 0.27454811334609985,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0019.jpg",
+      "true_item_id": "SKU004676",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU004207",
+      "top1_similarity": 0.662073016166687,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0020.jpg",
+      "true_item_id": "SKU004589",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU003161",
+      "top1_similarity": 0.8451043367385864,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0021.jpg",
+      "true_item_id": "SKU000844",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU001448",
+      "top1_similarity": 0.5074377059936523,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0022.jpg",
+      "true_item_id": "SKU003050",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003867",
+      "top1_similarity": 0.27454811334609985,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0023.jpg",
+      "true_item_id": "SKU004487",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU001043",
+      "top1_similarity": 0.9003807306289673,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0024.jpg",
+      "true_item_id": "SKU004623",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU004830",
+      "top1_similarity": 0.8979238271713257,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0025.jpg",
+      "true_item_id": "SKU005070",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU000797",
+      "top1_similarity": 0.4812890887260437,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0026.jpg",
+      "true_item_id": "SKU004066",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU003335",
+      "top1_similarity": 0.9206972718238831,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0027.jpg",
+      "true_item_id": "SKU003502",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU003825",
+      "top1_similarity": 0.41215282678604126,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0028.jpg",
+      "true_item_id": "SKU003814",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU003759",
+      "top1_similarity": 0.6174278855323792,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0029.jpg",
+      "true_item_id": "SKU002962",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU002597",
+      "top1_similarity": 0.6097390651702881,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0030.jpg",
+      "true_item_id": "SKU002035",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU000135",
+      "top1_similarity": 0.8766582012176514,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0031.jpg",
+      "true_item_id": "SKU001999",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU000772",
+      "top1_similarity": 0.871643602848053,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0032.jpg",
+      "true_item_id": "SKU004705",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU001302",
+      "top1_similarity": 0.5985080599784851,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0033.jpg",
+      "true_item_id": "SKU004302",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000954",
+      "top1_similarity": 0.5810354948043823,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0034.jpg",
+      "true_item_id": "SKU002813",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000496",
+      "top1_similarity": 0.6058728694915771,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0035.jpg",
+      "true_item_id": "SKU002358",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU001677",
+      "top1_similarity": 0.8487181663513184,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0036.jpg",
+      "true_item_id": "SKU000967",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU001708",
+      "top1_similarity": 0.9298416972160339,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0037.jpg",
+      "true_item_id": "SKU003425",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001430",
+      "top1_similarity": 0.9026117324829102,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0038.jpg",
+      "true_item_id": "SKU002802",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001384",
+      "top1_similarity": 0.9074344635009766,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0039.jpg",
+      "true_item_id": "SKU004005",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003675",
+      "top1_similarity": 0.8154336810112,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0040.jpg",
+      "true_item_id": "SKU000321",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU000829",
+      "top1_similarity": 0.8184518218040466,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0041.jpg",
+      "true_item_id": "SKU004571",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU000669",
+      "top1_similarity": 0.40468162298202515,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0042.jpg",
+      "true_item_id": "SKU002786",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU002552",
+      "top1_similarity": 0.38830482959747314,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0043.jpg",
+      "true_item_id": "SKU004869",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU004391",
+      "top1_similarity": 0.5304497480392456,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0044.jpg",
+      "true_item_id": "SKU004750",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU004145",
+      "top1_similarity": 0.4593660235404968,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0045.jpg",
+      "true_item_id": "SKU000563",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003018",
+      "top1_similarity": 0.9402515888214111,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0046.jpg",
+      "true_item_id": "SKU002211",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU004501",
+      "top1_similarity": 0.5804398059844971,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0047.jpg",
+      "true_item_id": "SKU000532",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU001680",
+      "top1_similarity": 0.9025567173957825,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0048.jpg",
+      "true_item_id": "SKU002536",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU004145",
+      "top1_similarity": 0.5276898145675659,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0049.jpg",
+      "true_item_id": "SKU002331",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003953",
+      "top1_similarity": 0.9008998870849609,
+      "correct_rank": 4,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0050.jpg",
+      "true_item_id": "SKU002842",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU003733",
+      "top1_similarity": 0.9323207139968872,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0051.jpg",
+      "true_item_id": "SKU003782",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU003434",
+      "top1_similarity": 0.40775495767593384,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0052.jpg",
+      "true_item_id": "SKU001376",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU004006",
+      "top1_similarity": 0.8423318862915039,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0053.jpg",
+      "true_item_id": "SKU004044",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU004903",
+      "top1_similarity": 0.8722316026687622,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0054.jpg",
+      "true_item_id": "SKU001787",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU004327",
+      "top1_similarity": 0.7067111730575562,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0055.jpg",
+      "true_item_id": "SKU001059",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU003521",
+      "top1_similarity": 0.5330119729042053,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0056.jpg",
+      "true_item_id": "SKU003259",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001597",
+      "top1_similarity": 0.8100458383560181,
+      "correct_rank": 5,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0057.jpg",
+      "true_item_id": "SKU004067",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU005005",
+      "top1_similarity": 0.8922894597053528,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0058.jpg",
+      "true_item_id": "SKU001362",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000008",
+      "top1_similarity": 0.4553876519203186,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0059.jpg",
+      "true_item_id": "SKU003290",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU003944",
+      "top1_similarity": 0.9206369519233704,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0060.jpg",
+      "true_item_id": "SKU002276",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001343",
+      "top1_similarity": 0.8902203440666199,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0061.jpg",
+      "true_item_id": "SKU003526",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU004913",
+      "top1_similarity": 0.9056168794631958,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0062.jpg",
+      "true_item_id": "SKU002280",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU002356",
+      "top1_similarity": 0.8143720626831055,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0063.jpg",
+      "true_item_id": "SKU002939",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000580",
+      "top1_similarity": 0.7392184138298035,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0064.jpg",
+      "true_item_id": "SKU001890",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001384",
+      "top1_similarity": 0.8945013284683228,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0065.jpg",
+      "true_item_id": "SKU000679",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001935",
+      "top1_similarity": 0.9050326347351074,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0066.jpg",
+      "true_item_id": "SKU001239",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU002906",
+      "top1_similarity": 0.5398021340370178,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0067.jpg",
+      "true_item_id": "SKU001911",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU002129",
+      "top1_similarity": 0.8700312376022339,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0068.jpg",
+      "true_item_id": "SKU003972",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU002172",
+      "top1_similarity": 0.8265748023986816,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0069.jpg",
+      "true_item_id": "SKU002152",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU004207",
+      "top1_similarity": 0.7806711792945862,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0070.jpg",
+      "true_item_id": "SKU000033",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU000874",
+      "top1_similarity": 0.9052824974060059,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0071.jpg",
+      "true_item_id": "SKU003432",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU000520",
+      "top1_similarity": 0.9486696124076843,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0072.jpg",
+      "true_item_id": "SKU003024",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU001542",
+      "top1_similarity": 0.42214059829711914,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0073.jpg",
+      "true_item_id": "SKU001028",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU005113",
+      "top1_similarity": 0.9116134643554688,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0074.jpg",
+      "true_item_id": "SKU005059",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU004852",
+      "top1_similarity": 0.9092328548431396,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0075.jpg",
+      "true_item_id": "SKU003740",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU001760",
+      "top1_similarity": 0.8764370679855347,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0076.jpg",
+      "true_item_id": "SKU003214",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003976",
+      "top1_similarity": 0.7853156924247742,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0077.jpg",
+      "true_item_id": "SKU003268",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001208",
+      "top1_similarity": 0.7407165765762329,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0078.jpg",
+      "true_item_id": "SKU000848",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU002288",
+      "top1_similarity": 0.4525255560874939,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0079.jpg",
+      "true_item_id": "SKU005196",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU004444",
+      "top1_similarity": 0.8065309524536133,
+      "correct_rank": 4,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0080.jpg",
+      "true_item_id": "SKU000509",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU004720",
+      "top1_similarity": 0.4691465198993683,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0081.jpg",
+      "true_item_id": "SKU000551",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU000576",
+      "top1_similarity": 0.4408862590789795,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0082.jpg",
+      "true_item_id": "SKU003609",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001935",
+      "top1_similarity": 0.8759338855743408,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0083.jpg",
+      "true_item_id": "SKU000900",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU005032",
+      "top1_similarity": 0.3431665301322937,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0085.jpg",
+      "true_item_id": "SKU000838",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU002854",
+      "top1_similarity": 0.9295408725738525,
+      "correct_rank": 2,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0086.jpg",
+      "true_item_id": "SKU004643",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU000302",
+      "top1_similarity": 0.9004579782485962,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0087.jpg",
+      "true_item_id": "SKU004395",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU002823",
+      "top1_similarity": 0.9414929747581482,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0088.jpg",
+      "true_item_id": "SKU002978",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU000065",
+      "top1_similarity": 0.9072787761688232,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0089.jpg",
+      "true_item_id": "SKU000576",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU004720",
+      "top1_similarity": 0.5225986242294312,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0091.jpg",
+      "true_item_id": "SKU001216",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000577",
+      "top1_similarity": 0.5578513145446777,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0092.jpg",
+      "true_item_id": "SKU002845",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU000961",
+      "top1_similarity": 0.40005409717559814,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0093.jpg",
+      "true_item_id": "SKU003884",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003868",
+      "top1_similarity": 0.8773264288902283,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0094.jpg",
+      "true_item_id": "SKU000944",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU001880",
+      "top1_similarity": 0.6296550035476685,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0095.jpg",
+      "true_item_id": "SKU003817",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000954",
+      "top1_similarity": 0.5372323989868164,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0096.jpg",
+      "true_item_id": "SKU003963",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU005108",
+      "top1_similarity": 0.5839663743972778,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0097.jpg",
+      "true_item_id": "SKU000703",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU003341",
+      "top1_similarity": 0.9089664220809937,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0098.jpg",
+      "true_item_id": "SKU000837",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU004340",
+      "top1_similarity": 0.4333764314651489,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0099.jpg",
+      "true_item_id": "SKU002168",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU004391",
+      "top1_similarity": 0.48354244232177734,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0100.jpg",
+      "true_item_id": "SKU001322",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU000520",
+      "top1_similarity": 0.9452470541000366,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0101.jpg",
+      "true_item_id": "SKU000189",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU004785",
+      "top1_similarity": 0.4326961636543274,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0102.jpg",
+      "true_item_id": "SKU004327",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU002918",
+      "top1_similarity": 0.4617534875869751,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0103.jpg",
+      "true_item_id": "SKU001200",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU003074",
+      "top1_similarity": 0.9493151307106018,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0104.jpg",
+      "true_item_id": "SKU000221",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU003944",
+      "top1_similarity": 0.9184141159057617,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0105.jpg",
+      "true_item_id": "SKU002441",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU001120",
+      "top1_similarity": 0.8313580751419067,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0106.jpg",
+      "true_item_id": "SKU002139",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU001708",
+      "top1_similarity": 0.9243816137313843,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0107.jpg",
+      "true_item_id": "SKU003004",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU002663",
+      "top1_similarity": 0.9152795076370239,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0108.jpg",
+      "true_item_id": "SKU002913",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU002915",
+      "top1_similarity": 0.519579291343689,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0109.jpg",
+      "true_item_id": "SKU004362",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU004448",
+      "top1_similarity": 0.8873568177223206,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0110.jpg",
+      "true_item_id": "SKU004118",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU000074",
+      "top1_similarity": 0.4701857566833496,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0111.jpg",
+      "true_item_id": "SKU001827",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU004753",
+      "top1_similarity": 0.4672103524208069,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0112.jpg",
+      "true_item_id": "SKU001961",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003652",
+      "top1_similarity": 0.7490607500076294,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0113.jpg",
+      "true_item_id": "SKU001857",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU002416",
+      "top1_similarity": 0.5509525537490845,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0114.jpg",
+      "true_item_id": "SKU004240",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU003014",
+      "top1_similarity": 0.6055991649627686,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0115.jpg",
+      "true_item_id": "SKU002912",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU004769",
+      "top1_similarity": 0.9096998572349548,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0116.jpg",
+      "true_item_id": "SKU000228",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU003868",
+      "top1_similarity": 0.7687588930130005,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0117.jpg",
+      "true_item_id": "SKU003868",
+      "conditions": [
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU003855",
+      "top1_similarity": 0.6770831346511841,
+      "correct_rank": 2,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0118.jpg",
+      "true_item_id": "SKU001586",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU004646",
+      "top1_similarity": 0.4241228997707367,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0119.jpg",
+      "true_item_id": "SKU003663",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU003126",
+      "top1_similarity": 0.38450518250465393,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0120.jpg",
+      "true_item_id": "SKU002987",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003867",
+      "top1_similarity": 0.27454811334609985,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0122.jpg",
+      "true_item_id": "SKU001858",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU004145",
+      "top1_similarity": 0.4933626651763916,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0123.jpg",
+      "true_item_id": "SKU001611",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU000081",
+      "top1_similarity": 0.4191470146179199,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0124.jpg",
+      "true_item_id": "SKU001674",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU003189",
+      "top1_similarity": 0.6124885678291321,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0125.jpg",
+      "true_item_id": "SKU005112",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU004022",
+      "top1_similarity": 0.9123959541320801,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0126.jpg",
+      "true_item_id": "SKU003927",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU000546",
+      "top1_similarity": 0.338619589805603,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0127.jpg",
+      "true_item_id": "SKU000694",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU001903",
+      "top1_similarity": 0.9318425059318542,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0128.jpg",
+      "true_item_id": "SKU003182",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU002144",
+      "top1_similarity": 0.36523163318634033,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0129.jpg",
+      "true_item_id": "SKU003916",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU002425",
+      "top1_similarity": 0.8289085626602173,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0130.jpg",
+      "true_item_id": "SKU003554",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU004602",
+      "top1_similarity": 0.44172847270965576,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0131.jpg",
+      "true_item_id": "SKU000710",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001217",
+      "top1_similarity": 0.742261528968811,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0132.jpg",
+      "true_item_id": "SKU003794",
+      "conditions": [
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU004170",
+      "top1_similarity": 0.7586227655410767,
+      "correct_rank": 3,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0133.jpg",
+      "true_item_id": "SKU000695",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU000527",
+      "top1_similarity": 0.888901948928833,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0134.jpg",
+      "true_item_id": "SKU001392",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU004398",
+      "top1_similarity": 0.9067049622535706,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0135.jpg",
+      "true_item_id": "SKU000225",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU003868",
+      "top1_similarity": 0.8694689273834229,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0136.jpg",
+      "true_item_id": "SKU004839",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000954",
+      "top1_similarity": 0.577010452747345,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0137.jpg",
+      "true_item_id": "SKU001197",
+      "conditions": [
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000496",
+      "top1_similarity": 0.6070763468742371,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0138.jpg",
+      "true_item_id": "SKU002870",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU002775",
+      "top1_similarity": 0.9024220705032349,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0139.jpg",
+      "true_item_id": "SKU004494",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU005054",
+      "top1_similarity": 0.9437024593353271,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0141.jpg",
+      "true_item_id": "SKU000116",
+      "conditions": [
+        "overexposed"
+      ],
+      "predicted_top1": "SKU002605",
+      "top1_similarity": 0.918146550655365,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0142.jpg",
+      "true_item_id": "SKU004313",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU004588",
+      "top1_similarity": 0.8737566471099854,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0143.jpg",
+      "true_item_id": "SKU003553",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU001106",
+      "top1_similarity": 0.4234604239463806,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0144.jpg",
+      "true_item_id": "SKU001728",
+      "conditions": [
+        "low_light"
+      ],
+      "predicted_top1": "SKU004595",
+      "top1_similarity": 0.910524845123291,
+      "correct_rank": 3,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0145.jpg",
+      "true_item_id": "SKU002063",
+      "conditions": [
+        "rotation"
+      ],
+      "predicted_top1": "SKU001263",
+      "top1_similarity": 0.44402438402175903,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0146.jpg",
+      "true_item_id": "SKU002399",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU000313",
+      "top1_similarity": 0.9113100171089172,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0147.jpg",
+      "true_item_id": "SKU001970",
+      "conditions": [
+        "cluttered_background"
+      ],
+      "predicted_top1": "SKU001542",
+      "top1_similarity": 0.3942601680755615,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0148.jpg",
+      "true_item_id": "SKU002124",
+      "conditions": [
+        "low_res"
+      ],
+      "predicted_top1": "SKU000324",
+      "top1_similarity": 0.8963872194290161,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0149.jpg",
+      "true_item_id": "SKU003432",
+      "conditions": [
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU002051",
+      "top1_similarity": 0.9063771367073059,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0150.jpg",
+      "true_item_id": "SKU000498",
+      "conditions": [
+        "cluttered_background",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000207",
+      "top1_similarity": 0.3886120021343231,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0151.jpg",
+      "true_item_id": "SKU004778",
+      "conditions": [
+        "low_res",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000492",
+      "top1_similarity": 0.8011656999588013,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0152.jpg",
+      "true_item_id": "SKU004109",
+      "conditions": [
+        "low_res",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU004588",
+      "top1_similarity": 0.8337745666503906,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0153.jpg",
+      "true_item_id": "SKU004288",
+      "conditions": [
+        "low_light",
+        "low_res"
+      ],
+      "predicted_top1": "SKU000571",
+      "top1_similarity": 0.8620991706848145,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0154.jpg",
+      "true_item_id": "SKU003605",
+      "conditions": [
+        "low_light",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU004995",
+      "top1_similarity": 0.8326662182807922,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0155.jpg",
+      "true_item_id": "SKU001227",
+      "conditions": [
+        "low_res",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001058",
+      "top1_similarity": 0.9008312821388245,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0156.jpg",
+      "true_item_id": "SKU003878",
+      "conditions": [
+        "low_light",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU004856",
+      "top1_similarity": 0.8200159072875977,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0157.jpg",
+      "true_item_id": "SKU002670",
+      "conditions": [
+        "low_res",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU004391",
+      "top1_similarity": 0.5772926807403564,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0158.jpg",
+      "true_item_id": "SKU000869",
+      "conditions": [
+        "low_light",
+        "low_res"
+      ],
+      "predicted_top1": "SKU000848",
+      "top1_similarity": 0.8491843938827515,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0159.jpg",
+      "true_item_id": "SKU002035",
+      "conditions": [
+        "partial_occlusion",
+        "rotation"
+      ],
+      "predicted_top1": "SKU000910",
+      "top1_similarity": 0.432929664850235,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0160.jpg",
+      "true_item_id": "SKU000345",
+      "conditions": [
+        "off_angle_crop",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003089",
+      "top1_similarity": 0.4610505700111389,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0161.jpg",
+      "true_item_id": "SKU004601",
+      "conditions": [
+        "low_light",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003551",
+      "top1_similarity": 0.9069004058837891,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0162.jpg",
+      "true_item_id": "SKU003631",
+      "conditions": [
+        "cluttered_background",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001852",
+      "top1_similarity": 0.40786322951316833,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0163.jpg",
+      "true_item_id": "SKU002270",
+      "conditions": [
+        "low_res",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000496",
+      "top1_similarity": 0.6642426252365112,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0164.jpg",
+      "true_item_id": "SKU004159",
+      "conditions": [
+        "partial_occlusion",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004533",
+      "top1_similarity": 0.4631935656070709,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0165.jpg",
+      "true_item_id": "SKU004583",
+      "conditions": [
+        "off_angle_crop",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001166",
+      "top1_similarity": 0.43570852279663086,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0166.jpg",
+      "true_item_id": "SKU001123",
+      "conditions": [
+        "overexposed",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU004299",
+      "top1_similarity": 0.8423023819923401,
+      "correct_rank": 2,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0167.jpg",
+      "true_item_id": "SKU003214",
+      "conditions": [
+        "cluttered_background",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU001267",
+      "top1_similarity": 0.4138707220554352,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0168.jpg",
+      "true_item_id": "SKU000594",
+      "conditions": [
+        "reflection_glare",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001210",
+      "top1_similarity": 0.4109758734703064,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0169.jpg",
+      "true_item_id": "SKU000599",
+      "conditions": [
+        "partial_occlusion",
+        "rotation"
+      ],
+      "predicted_top1": "SKU002101",
+      "top1_similarity": 0.41233035922050476,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0170.jpg",
+      "true_item_id": "SKU001002",
+      "conditions": [
+        "cluttered_background",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU002579",
+      "top1_similarity": 0.302179217338562,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0171.jpg",
+      "true_item_id": "SKU001171",
+      "conditions": [
+        "motion_blur",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000992",
+      "top1_similarity": 0.633897066116333,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0172.jpg",
+      "true_item_id": "SKU003831",
+      "conditions": [
+        "overexposed",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004639",
+      "top1_similarity": 0.4551650285720825,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0173.jpg",
+      "true_item_id": "SKU003262",
+      "conditions": [
+        "motion_blur",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000496",
+      "top1_similarity": 0.5972076654434204,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0174.jpg",
+      "true_item_id": "SKU001832",
+      "conditions": [
+        "motion_blur",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU004588",
+      "top1_similarity": 0.7231569290161133,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0175.jpg",
+      "true_item_id": "SKU004223",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001695",
+      "top1_similarity": 0.36436915397644043,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0176.jpg",
+      "true_item_id": "SKU003451",
+      "conditions": [
+        "cluttered_background",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004863",
+      "top1_similarity": 0.25431954860687256,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0177.jpg",
+      "true_item_id": "SKU002609",
+      "conditions": [
+        "cluttered_background",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU000956",
+      "top1_similarity": 0.3378143310546875,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0178.jpg",
+      "true_item_id": "SKU000159",
+      "conditions": [
+        "cluttered_background",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU001267",
+      "top1_similarity": 0.44367921352386475,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0179.jpg",
+      "true_item_id": "SKU003608",
+      "conditions": [
+        "low_light",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003398",
+      "top1_similarity": 0.7628871202468872,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0180.jpg",
+      "true_item_id": "SKU002715",
+      "conditions": [
+        "low_res",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU001963",
+      "top1_similarity": 0.7451112270355225,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0181.jpg",
+      "true_item_id": "SKU004196",
+      "conditions": [
+        "low_res",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU001035",
+      "top1_similarity": 0.8807564377784729,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0182.jpg",
+      "true_item_id": "SKU001872",
+      "conditions": [
+        "low_res",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU002657",
+      "top1_similarity": 0.8990660309791565,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0183.jpg",
+      "true_item_id": "SKU002175",
+      "conditions": [
+        "low_light",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000244",
+      "top1_similarity": 0.7131021618843079,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0184.jpg",
+      "true_item_id": "SKU001487",
+      "conditions": [
+        "motion_blur",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU002762",
+      "top1_similarity": 0.6955934762954712,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0185.jpg",
+      "true_item_id": "SKU003459",
+      "conditions": [
+        "partial_occlusion",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU004595",
+      "top1_similarity": 0.5858473777770996,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0186.jpg",
+      "true_item_id": "SKU001223",
+      "conditions": [
+        "low_res",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU004172",
+      "top1_similarity": 0.5406700372695923,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0187.jpg",
+      "true_item_id": "SKU002679",
+      "conditions": [
+        "overexposed",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU001836",
+      "top1_similarity": 0.5055301189422607,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0188.jpg",
+      "true_item_id": "SKU000471",
+      "conditions": [
+        "motion_blur",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000190",
+      "top1_similarity": 0.7401412129402161,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0189.jpg",
+      "true_item_id": "SKU000593",
+      "conditions": [
+        "low_light",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU005039",
+      "top1_similarity": 0.5924423933029175,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0190.jpg",
+      "true_item_id": "SKU005197",
+      "conditions": [
+        "overexposed",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000669",
+      "top1_similarity": 0.6176556944847107,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0191.jpg",
+      "true_item_id": "SKU000686",
+      "conditions": [
+        "overexposed",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004316",
+      "top1_similarity": 0.38298869132995605,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0192.jpg",
+      "true_item_id": "SKU002166",
+      "conditions": [
+        "off_angle_crop",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU000207",
+      "top1_similarity": 0.5283671617507935,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0193.jpg",
+      "true_item_id": "SKU000094",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000960",
+      "top1_similarity": 0.3906465172767639,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0194.jpg",
+      "true_item_id": "SKU002194",
+      "conditions": [
+        "low_light",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001035",
+      "top1_similarity": 0.784240186214447,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0195.jpg",
+      "true_item_id": "SKU004316",
+      "conditions": [
+        "overexposed",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001471",
+      "top1_similarity": 0.4571824073791504,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0196.jpg",
+      "true_item_id": "SKU001322",
+      "conditions": [
+        "low_light",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000717",
+      "top1_similarity": 0.55457603931427,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0197.jpg",
+      "true_item_id": "SKU001483",
+      "conditions": [
+        "partial_occlusion",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004466",
+      "top1_similarity": 0.3436471223831177,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0198.jpg",
+      "true_item_id": "SKU005150",
+      "conditions": [
+        "partial_occlusion",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001686",
+      "top1_similarity": 0.5801461338996887,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0199.jpg",
+      "true_item_id": "SKU002375",
+      "conditions": [
+        "motion_blur",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU001322",
+      "top1_similarity": 0.6179840564727783,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0200.jpg",
+      "true_item_id": "SKU002216",
+      "conditions": [
+        "cluttered_background",
+        "low_light"
+      ],
+      "predicted_top1": "SKU001542",
+      "top1_similarity": 0.4330599904060364,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0201.jpg",
+      "true_item_id": "SKU002051",
+      "conditions": [
+        "low_light",
+        "low_res"
+      ],
+      "predicted_top1": "SKU001483",
+      "top1_similarity": 0.8596269488334656,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0202.jpg",
+      "true_item_id": "SKU000151",
+      "conditions": [
+        "low_res",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004753",
+      "top1_similarity": 0.4665850102901459,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0203.jpg",
+      "true_item_id": "SKU004212",
+      "conditions": [
+        "off_angle_crop",
+        "rotation"
+      ],
+      "predicted_top1": "SKU003470",
+      "top1_similarity": 0.4022234380245209,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0204.jpg",
+      "true_item_id": "SKU003662",
+      "conditions": [
+        "overexposed",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003792",
+      "top1_similarity": 0.8289982080459595,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0205.jpg",
+      "true_item_id": "SKU004055",
+      "conditions": [
+        "low_res",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001302",
+      "top1_similarity": 0.7304918766021729,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0206.jpg",
+      "true_item_id": "SKU004150",
+      "conditions": [
+        "partial_occlusion",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004466",
+      "top1_similarity": 0.40039679408073425,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0207.jpg",
+      "true_item_id": "SKU001880",
+      "conditions": [
+        "cluttered_background",
+        "rotation"
+      ],
+      "predicted_top1": "SKU003367",
+      "top1_similarity": 0.4090902507305145,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0208.jpg",
+      "true_item_id": "SKU001144",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU002485",
+      "top1_similarity": 0.32482314109802246,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0209.jpg",
+      "true_item_id": "SKU000445",
+      "conditions": [
+        "low_light",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU003733",
+      "top1_similarity": 0.863530158996582,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0210.jpg",
+      "true_item_id": "SKU000579",
+      "conditions": [
+        "partial_occlusion",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000886",
+      "top1_similarity": 0.7105638980865479,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0211.jpg",
+      "true_item_id": "SKU001337",
+      "conditions": [
+        "low_light",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU005045",
+      "top1_similarity": 0.8723278641700745,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0212.jpg",
+      "true_item_id": "SKU003120",
+      "conditions": [
+        "low_res",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU002708",
+      "top1_similarity": 0.5913279056549072,
+      "correct_rank": 2,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0213.jpg",
+      "true_item_id": "SKU004905",
+      "conditions": [
+        "partial_occlusion",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001444",
+      "top1_similarity": 0.45933932065963745,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0214.jpg",
+      "true_item_id": "SKU000370",
+      "conditions": [
+        "motion_blur",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU003014",
+      "top1_similarity": 0.5597037672996521,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0215.jpg",
+      "true_item_id": "SKU001290",
+      "conditions": [
+        "off_angle_crop",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU004391",
+      "top1_similarity": 0.46547695994377136,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0216.jpg",
+      "true_item_id": "SKU000029",
+      "conditions": [
+        "cluttered_background",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU002083",
+      "top1_similarity": 0.35600632429122925,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0217.jpg",
+      "true_item_id": "SKU002694",
+      "conditions": [
+        "cluttered_background",
+        "low_res"
+      ],
+      "predicted_top1": "SKU002552",
+      "top1_similarity": 0.3927830755710602,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0218.jpg",
+      "true_item_id": "SKU002002",
+      "conditions": [
+        "low_light",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU003933",
+      "top1_similarity": 0.5518344044685364,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0219.jpg",
+      "true_item_id": "SKU001784",
+      "conditions": [
+        "cluttered_background",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU001239",
+      "top1_similarity": 0.40341946482658386,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0220.jpg",
+      "true_item_id": "SKU000008",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU002320",
+      "top1_similarity": 0.4225212037563324,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0221.jpg",
+      "true_item_id": "SKU000687",
+      "conditions": [
+        "off_angle_crop",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000547",
+      "top1_similarity": 0.4222685694694519,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0222.jpg",
+      "true_item_id": "SKU004118",
+      "conditions": [
+        "low_res",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001106",
+      "top1_similarity": 0.42391666769981384,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0223.jpg",
+      "true_item_id": "SKU004134",
+      "conditions": [
+        "low_light",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003061",
+      "top1_similarity": 0.865662693977356,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0224.jpg",
+      "true_item_id": "SKU002164",
+      "conditions": [
+        "motion_blur",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU001343",
+      "top1_similarity": 0.7778159379959106,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0225.jpg",
+      "true_item_id": "SKU003272",
+      "conditions": [
+        "low_light",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000815",
+      "top1_similarity": 0.6014401912689209,
+      "correct_rank": 4,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0226.jpg",
+      "true_item_id": "SKU000184",
+      "conditions": [
+        "low_res",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU004277",
+      "top1_similarity": 0.722389817237854,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0227.jpg",
+      "true_item_id": "SKU005158",
+      "conditions": [
+        "overexposed",
+        "rotation"
+      ],
+      "predicted_top1": "SKU000948",
+      "top1_similarity": 0.46071115136146545,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0228.jpg",
+      "true_item_id": "SKU004797",
+      "conditions": [
+        "low_res",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU003074",
+      "top1_similarity": 0.9010007381439209,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0229.jpg",
+      "true_item_id": "SKU004887",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU004806",
+      "top1_similarity": 0.4337978661060333,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0230.jpg",
+      "true_item_id": "SKU004048",
+      "conditions": [
+        "motion_blur",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU003340",
+      "top1_similarity": 0.46520259976387024,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0231.jpg",
+      "true_item_id": "SKU005068",
+      "conditions": [
+        "low_light",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU003113",
+      "top1_similarity": 0.847701907157898,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0232.jpg",
+      "true_item_id": "SKU004202",
+      "conditions": [
+        "motion_blur",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU002565",
+      "top1_similarity": 0.7786408066749573,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0233.jpg",
+      "true_item_id": "SKU004290",
+      "conditions": [
+        "low_light",
+        "low_res"
+      ],
+      "predicted_top1": "SKU001409",
+      "top1_similarity": 0.8391568660736084,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0234.jpg",
+      "true_item_id": "SKU004784",
+      "conditions": [
+        "overexposed",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004316",
+      "top1_similarity": 0.4691699743270874,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0235.jpg",
+      "true_item_id": "SKU000255",
+      "conditions": [
+        "low_light",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU003508",
+      "top1_similarity": 0.7558286190032959,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0236.jpg",
+      "true_item_id": "SKU002954",
+      "conditions": [
+        "overexposed",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003363",
+      "top1_similarity": 0.888092577457428,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0237.jpg",
+      "true_item_id": "SKU003697",
+      "conditions": [
+        "low_light",
+        "low_res"
+      ],
+      "predicted_top1": "SKU000358",
+      "top1_similarity": 0.8613289594650269,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0238.jpg",
+      "true_item_id": "SKU005142",
+      "conditions": [
+        "low_light",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004111",
+      "top1_similarity": 0.3553037941455841,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0239.jpg",
+      "true_item_id": "SKU004008",
+      "conditions": [
+        "low_light",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU001151",
+      "top1_similarity": 0.5843556523323059,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0240.jpg",
+      "true_item_id": "SKU003743",
+      "conditions": [
+        "low_res",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU002327",
+      "top1_similarity": 0.902696967124939,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0241.jpg",
+      "true_item_id": "SKU004308",
+      "conditions": [
+        "off_angle_crop",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003879",
+      "top1_similarity": 0.42029523849487305,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0242.jpg",
+      "true_item_id": "SKU002065",
+      "conditions": [
+        "overexposed",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU001307",
+      "top1_similarity": 0.3010370433330536,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0243.jpg",
+      "true_item_id": "SKU001923",
+      "conditions": [
+        "low_res",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001654",
+      "top1_similarity": 0.4009366035461426,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0244.jpg",
+      "true_item_id": "SKU003771",
+      "conditions": [
+        "off_angle_crop",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001990",
+      "top1_similarity": 0.5466471910476685,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0245.jpg",
+      "true_item_id": "SKU000628",
+      "conditions": [
+        "off_angle_crop",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000035",
+      "top1_similarity": 0.4652246832847595,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0246.jpg",
+      "true_item_id": "SKU000382",
+      "conditions": [
+        "overexposed",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001800",
+      "top1_similarity": 0.3480548858642578,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0247.jpg",
+      "true_item_id": "SKU004912",
+      "conditions": [
+        "cluttered_background",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU002565",
+      "top1_similarity": 0.4413176476955414,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0248.jpg",
+      "true_item_id": "SKU002080",
+      "conditions": [
+        "motion_blur",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000473",
+      "top1_similarity": 0.6743000149726868,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0249.jpg",
+      "true_item_id": "SKU000102",
+      "conditions": [
+        "low_light",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU000083",
+      "top1_similarity": 0.5464745759963989,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0250.jpg",
+      "true_item_id": "SKU003979",
+      "conditions": [
+        "overexposed",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU001640",
+      "top1_similarity": 0.6316420435905457,
+      "correct_rank": 4,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0251.jpg",
+      "true_item_id": "SKU001783",
+      "conditions": [
+        "off_angle_crop",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU000882",
+      "top1_similarity": 0.4561326503753662,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0252.jpg",
+      "true_item_id": "SKU004231",
+      "conditions": [
+        "off_angle_crop",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU003124",
+      "top1_similarity": 0.45283132791519165,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0253.jpg",
+      "true_item_id": "SKU003816",
+      "conditions": [
+        "off_angle_crop",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU000954",
+      "top1_similarity": 0.5976691842079163,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0254.jpg",
+      "true_item_id": "SKU004498",
+      "conditions": [
+        "partial_occlusion",
+        "rotation"
+      ],
+      "predicted_top1": "SKU003166",
+      "top1_similarity": 0.42656341195106506,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0255.jpg",
+      "true_item_id": "SKU000703",
+      "conditions": [
+        "low_light",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU001562",
+      "top1_similarity": 0.5003726482391357,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0256.jpg",
+      "true_item_id": "SKU002372",
+      "conditions": [
+        "off_angle_crop",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003014",
+      "top1_similarity": 0.5836477875709534,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0257.jpg",
+      "true_item_id": "SKU004150",
+      "conditions": [
+        "off_angle_crop",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU002316",
+      "top1_similarity": 0.4129970967769623,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0258.jpg",
+      "true_item_id": "SKU003169",
+      "conditions": [
+        "low_res",
+        "rotation"
+      ],
+      "predicted_top1": "SKU003085",
+      "top1_similarity": 0.46017855405807495,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0259.jpg",
+      "true_item_id": "SKU000611",
+      "conditions": [
+        "motion_blur",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU004995",
+      "top1_similarity": 0.7806386947631836,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0260.jpg",
+      "true_item_id": "SKU004293",
+      "conditions": [
+        "cluttered_background",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU003437",
+      "top1_similarity": 0.39279410243034363,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0261.jpg",
+      "true_item_id": "SKU001086",
+      "conditions": [
+        "low_res",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU004602",
+      "top1_similarity": 0.5873813629150391,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0262.jpg",
+      "true_item_id": "SKU000923",
+      "conditions": [
+        "cluttered_background",
+        "rotation"
+      ],
+      "predicted_top1": "SKU003367",
+      "top1_similarity": 0.37535494565963745,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0263.jpg",
+      "true_item_id": "SKU004078",
+      "conditions": [
+        "off_angle_crop",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU003014",
+      "top1_similarity": 0.5568381547927856,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0264.jpg",
+      "true_item_id": "SKU000203",
+      "conditions": [
+        "low_light",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU003868",
+      "top1_similarity": 0.8224195241928101,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0265.jpg",
+      "true_item_id": "SKU004027",
+      "conditions": [
+        "off_angle_crop",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU004501",
+      "top1_similarity": 0.5552229881286621,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0266.jpg",
+      "true_item_id": "SKU002473",
+      "conditions": [
+        "motion_blur",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001419",
+      "top1_similarity": 0.7283759117126465,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0267.jpg",
+      "true_item_id": "SKU002817",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU002770",
+      "top1_similarity": 0.36876624822616577,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0268.jpg",
+      "true_item_id": "SKU000990",
+      "conditions": [
+        "cluttered_background",
+        "low_light"
+      ],
+      "predicted_top1": "SKU000884",
+      "top1_similarity": 0.37729743123054504,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0269.jpg",
+      "true_item_id": "SKU002658",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001542",
+      "top1_similarity": 0.3656851053237915,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0270.jpg",
+      "true_item_id": "SKU000983",
+      "conditions": [
+        "low_light",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001508",
+      "top1_similarity": 0.40137097239494324,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0271.jpg",
+      "true_item_id": "SKU002374",
+      "conditions": [
+        "cluttered_background",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU002101",
+      "top1_similarity": 0.3989119231700897,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0272.jpg",
+      "true_item_id": "SKU000532",
+      "conditions": [
+        "low_res",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU002788",
+      "top1_similarity": 0.7498452663421631,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0273.jpg",
+      "true_item_id": "SKU004826",
+      "conditions": [
+        "cluttered_background",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003367",
+      "top1_similarity": 0.3397533595561981,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0274.jpg",
+      "true_item_id": "SKU003506",
+      "conditions": [
+        "low_light",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU001907",
+      "top1_similarity": 0.6530150175094604,
+      "correct_rank": 2,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0275.jpg",
+      "true_item_id": "SKU002298",
+      "conditions": [
+        "low_light",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003020",
+      "top1_similarity": 0.8406860828399658,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0276.jpg",
+      "true_item_id": "SKU002339",
+      "conditions": [
+        "motion_blur",
+        "rotation"
+      ],
+      "predicted_top1": "SKU002346",
+      "top1_similarity": 0.5338135361671448,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0277.jpg",
+      "true_item_id": "SKU002176",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001745",
+      "top1_similarity": 0.5150321125984192,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0278.jpg",
+      "true_item_id": "SKU001555",
+      "conditions": [
+        "cluttered_background",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000956",
+      "top1_similarity": 0.41994500160217285,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0279.jpg",
+      "true_item_id": "SKU000237",
+      "conditions": [
+        "reflection_glare",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001233",
+      "top1_similarity": 0.3893963694572449,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0280.jpg",
+      "true_item_id": "SKU000660",
+      "conditions": [
+        "low_light",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000792",
+      "top1_similarity": 0.7525005340576172,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0281.jpg",
+      "true_item_id": "SKU003693",
+      "conditions": [
+        "motion_blur",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU004719",
+      "top1_similarity": 0.5747020840644836,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0282.jpg",
+      "true_item_id": "SKU003977",
+      "conditions": [
+        "low_light",
+        "motion_blur"
+      ],
+      "predicted_top1": "SKU002082",
+      "top1_similarity": 0.6520894765853882,
+      "correct_rank": 4,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0283.jpg",
+      "true_item_id": "SKU001398",
+      "conditions": [
+        "off_angle_crop",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000112",
+      "top1_similarity": 0.6092988848686218,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0284.jpg",
+      "true_item_id": "SKU002815",
+      "conditions": [
+        "low_res",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU003933",
+      "top1_similarity": 0.6253830790519714,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0285.jpg",
+      "true_item_id": "SKU002095",
+      "conditions": [
+        "partial_occlusion",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU000740",
+      "top1_similarity": 0.5336112976074219,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0286.jpg",
+      "true_item_id": "SKU001955",
+      "conditions": [
+        "off_angle_crop",
+        "partial_occlusion"
+      ],
+      "predicted_top1": "SKU002272",
+      "top1_similarity": 0.4678720533847809,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0287.jpg",
+      "true_item_id": "SKU004565",
+      "conditions": [
+        "overexposed",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001824",
+      "top1_similarity": 0.8166337013244629,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0288.jpg",
+      "true_item_id": "SKU001370",
+      "conditions": [
+        "motion_blur",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003052",
+      "top1_similarity": 0.8280869722366333,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0289.jpg",
+      "true_item_id": "SKU001702",
+      "conditions": [
+        "low_res",
+        "off_angle_crop"
+      ],
+      "predicted_top1": "SKU002374",
+      "top1_similarity": 0.5539995431900024,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0290.jpg",
+      "true_item_id": "SKU004508",
+      "conditions": [
+        "off_angle_crop",
+        "rotation"
+      ],
+      "predicted_top1": "SKU001106",
+      "top1_similarity": 0.36324939131736755,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0291.jpg",
+      "true_item_id": "SKU002726",
+      "conditions": [
+        "off_angle_crop",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU001990",
+      "top1_similarity": 0.5810161232948303,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0292.jpg",
+      "true_item_id": "SKU001143",
+      "conditions": [
+        "low_res",
+        "rotation"
+      ],
+      "predicted_top1": "SKU003294",
+      "top1_similarity": 0.4589011073112488,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0293.jpg",
+      "true_item_id": "SKU001999",
+      "conditions": [
+        "motion_blur",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU003448",
+      "top1_similarity": 0.756079912185669,
+      "correct_rank": 2,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0294.jpg",
+      "true_item_id": "SKU002801",
+      "conditions": [
+        "low_res",
+        "overexposed"
+      ],
+      "predicted_top1": "SKU002362",
+      "top1_similarity": 0.8545520901679993,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0295.jpg",
+      "true_item_id": "SKU002615",
+      "conditions": [
+        "cluttered_background",
+        "rotation"
+      ],
+      "predicted_top1": "SKU004863",
+      "top1_similarity": 0.29266542196273804,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0296.jpg",
+      "true_item_id": "SKU002116",
+      "conditions": [
+        "low_light",
+        "rotation"
+      ],
+      "predicted_top1": "SKU002866",
+      "top1_similarity": 0.37745124101638794,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0297.jpg",
+      "true_item_id": "SKU003381",
+      "conditions": [
+        "low_res",
+        "reflection_glare"
+      ],
+      "predicted_top1": "SKU002257",
+      "top1_similarity": 0.7521100044250488,
+      "correct_rank": null,
+      "was_rejected": false
+    },
+    {
+      "file": "auto_0298.jpg",
+      "true_item_id": "SKU004293",
+      "conditions": [
+        "reflection_glare",
+        "rotation"
+      ],
+      "predicted_top1": "SKU002101",
+      "top1_similarity": 0.4473522901535034,
+      "correct_rank": null,
+      "was_rejected": true
+    },
+    {
+      "file": "auto_0299.jpg",
+      "true_item_id": "SKU002213",
+      "conditions": [
+        "cluttered_background",
+        "low_light"
+      ],
+      "predicted_top1": "SKU000492",
+      "top1_similarity": 0.3609774708747864,
+      "correct_rank": null,
+      "was_rejected": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "sim_threshold": 0.45,
+  "margin_threshold": 0.0,
+  "far": 0.6,
+  "frr": 0.2433333333333333
+}

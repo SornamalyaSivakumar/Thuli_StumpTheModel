@@ -1,0 +1,2252 @@
+[
+  {
+    "file": "auto_0000.jpg",
+    "true_item_id": "SKU002652",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0001.jpg",
+    "true_item_id": "SKU003234",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0002.jpg",
+    "true_item_id": "SKU000593",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0003.jpg",
+    "true_item_id": "SKU000771",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0004.jpg",
+    "true_item_id": "SKU004774",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0005.jpg",
+    "true_item_id": "SKU004156",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0006.jpg",
+    "true_item_id": "SKU000307",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0007.jpg",
+    "true_item_id": "SKU003552",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0008.jpg",
+    "true_item_id": "SKU000572",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0009.jpg",
+    "true_item_id": "SKU000743",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0010.jpg",
+    "true_item_id": "SKU003477",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0011.jpg",
+    "true_item_id": "SKU004632",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0012.jpg",
+    "true_item_id": "SKU001828",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0013.jpg",
+    "true_item_id": "SKU004727",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0014.jpg",
+    "true_item_id": "SKU000406",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0015.jpg",
+    "true_item_id": "SKU000381",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0016.jpg",
+    "true_item_id": "SKU001090",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0017.jpg",
+    "true_item_id": "SKU003433",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0018.jpg",
+    "true_item_id": "SKU004429",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0019.jpg",
+    "true_item_id": "SKU004676",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0020.jpg",
+    "true_item_id": "SKU004589",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0021.jpg",
+    "true_item_id": "SKU000844",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0022.jpg",
+    "true_item_id": "SKU003050",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0023.jpg",
+    "true_item_id": "SKU004487",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0024.jpg",
+    "true_item_id": "SKU004623",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0025.jpg",
+    "true_item_id": "SKU005070",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0026.jpg",
+    "true_item_id": "SKU004066",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0027.jpg",
+    "true_item_id": "SKU003502",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0028.jpg",
+    "true_item_id": "SKU003814",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0029.jpg",
+    "true_item_id": "SKU002962",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0030.jpg",
+    "true_item_id": "SKU002035",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0031.jpg",
+    "true_item_id": "SKU001999",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0032.jpg",
+    "true_item_id": "SKU004705",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0033.jpg",
+    "true_item_id": "SKU004302",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0034.jpg",
+    "true_item_id": "SKU002813",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0035.jpg",
+    "true_item_id": "SKU002358",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0036.jpg",
+    "true_item_id": "SKU000967",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0037.jpg",
+    "true_item_id": "SKU003425",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0038.jpg",
+    "true_item_id": "SKU002802",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0039.jpg",
+    "true_item_id": "SKU004005",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0040.jpg",
+    "true_item_id": "SKU000321",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0041.jpg",
+    "true_item_id": "SKU004571",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0042.jpg",
+    "true_item_id": "SKU002786",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0043.jpg",
+    "true_item_id": "SKU004869",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0044.jpg",
+    "true_item_id": "SKU004750",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0045.jpg",
+    "true_item_id": "SKU000563",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0046.jpg",
+    "true_item_id": "SKU002211",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0047.jpg",
+    "true_item_id": "SKU000532",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0048.jpg",
+    "true_item_id": "SKU002536",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0049.jpg",
+    "true_item_id": "SKU002331",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0050.jpg",
+    "true_item_id": "SKU002842",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0051.jpg",
+    "true_item_id": "SKU003782",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0052.jpg",
+    "true_item_id": "SKU001376",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0053.jpg",
+    "true_item_id": "SKU004044",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0054.jpg",
+    "true_item_id": "SKU001787",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0055.jpg",
+    "true_item_id": "SKU001059",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0056.jpg",
+    "true_item_id": "SKU003259",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0057.jpg",
+    "true_item_id": "SKU004067",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0058.jpg",
+    "true_item_id": "SKU001362",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0059.jpg",
+    "true_item_id": "SKU003290",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0060.jpg",
+    "true_item_id": "SKU002276",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0061.jpg",
+    "true_item_id": "SKU003526",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0062.jpg",
+    "true_item_id": "SKU002280",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0063.jpg",
+    "true_item_id": "SKU002939",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0064.jpg",
+    "true_item_id": "SKU001890",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0065.jpg",
+    "true_item_id": "SKU000679",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0066.jpg",
+    "true_item_id": "SKU001239",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0067.jpg",
+    "true_item_id": "SKU001911",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0068.jpg",
+    "true_item_id": "SKU003972",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0069.jpg",
+    "true_item_id": "SKU002152",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0070.jpg",
+    "true_item_id": "SKU000033",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0071.jpg",
+    "true_item_id": "SKU003432",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0072.jpg",
+    "true_item_id": "SKU003024",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0073.jpg",
+    "true_item_id": "SKU001028",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0074.jpg",
+    "true_item_id": "SKU005059",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0075.jpg",
+    "true_item_id": "SKU003740",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0076.jpg",
+    "true_item_id": "SKU003214",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0077.jpg",
+    "true_item_id": "SKU003268",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0078.jpg",
+    "true_item_id": "SKU000848",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0079.jpg",
+    "true_item_id": "SKU005196",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0080.jpg",
+    "true_item_id": "SKU000509",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0081.jpg",
+    "true_item_id": "SKU000551",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0082.jpg",
+    "true_item_id": "SKU003609",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0083.jpg",
+    "true_item_id": "SKU000900",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0084.jpg",
+    "true_item_id": "SKU004921",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0085.jpg",
+    "true_item_id": "SKU000838",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0086.jpg",
+    "true_item_id": "SKU004643",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0087.jpg",
+    "true_item_id": "SKU004395",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0088.jpg",
+    "true_item_id": "SKU002978",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0089.jpg",
+    "true_item_id": "SKU000576",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0090.jpg",
+    "true_item_id": "SKU005030",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0091.jpg",
+    "true_item_id": "SKU001216",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0092.jpg",
+    "true_item_id": "SKU002845",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0093.jpg",
+    "true_item_id": "SKU003884",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0094.jpg",
+    "true_item_id": "SKU000944",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0095.jpg",
+    "true_item_id": "SKU003817",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0096.jpg",
+    "true_item_id": "SKU003963",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0097.jpg",
+    "true_item_id": "SKU000703",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0098.jpg",
+    "true_item_id": "SKU000837",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0099.jpg",
+    "true_item_id": "SKU002168",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0100.jpg",
+    "true_item_id": "SKU001322",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0101.jpg",
+    "true_item_id": "SKU000189",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0102.jpg",
+    "true_item_id": "SKU004327",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0103.jpg",
+    "true_item_id": "SKU001200",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0104.jpg",
+    "true_item_id": "SKU000221",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0105.jpg",
+    "true_item_id": "SKU002441",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0106.jpg",
+    "true_item_id": "SKU002139",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0107.jpg",
+    "true_item_id": "SKU003004",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0108.jpg",
+    "true_item_id": "SKU002913",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0109.jpg",
+    "true_item_id": "SKU004362",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0110.jpg",
+    "true_item_id": "SKU004118",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0111.jpg",
+    "true_item_id": "SKU001827",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0112.jpg",
+    "true_item_id": "SKU001961",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0113.jpg",
+    "true_item_id": "SKU001857",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0114.jpg",
+    "true_item_id": "SKU004240",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0115.jpg",
+    "true_item_id": "SKU002912",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0116.jpg",
+    "true_item_id": "SKU000228",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0117.jpg",
+    "true_item_id": "SKU003868",
+    "conditions": [
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0118.jpg",
+    "true_item_id": "SKU001586",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0119.jpg",
+    "true_item_id": "SKU003663",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0120.jpg",
+    "true_item_id": "SKU002987",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0121.jpg",
+    "true_item_id": "SKU001806",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0122.jpg",
+    "true_item_id": "SKU001858",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0123.jpg",
+    "true_item_id": "SKU001611",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0124.jpg",
+    "true_item_id": "SKU001674",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0125.jpg",
+    "true_item_id": "SKU005112",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0126.jpg",
+    "true_item_id": "SKU003927",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0127.jpg",
+    "true_item_id": "SKU000694",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0128.jpg",
+    "true_item_id": "SKU003182",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0129.jpg",
+    "true_item_id": "SKU003916",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0130.jpg",
+    "true_item_id": "SKU003554",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0131.jpg",
+    "true_item_id": "SKU000710",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0132.jpg",
+    "true_item_id": "SKU003794",
+    "conditions": [
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0133.jpg",
+    "true_item_id": "SKU000695",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0134.jpg",
+    "true_item_id": "SKU001392",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0135.jpg",
+    "true_item_id": "SKU000225",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0136.jpg",
+    "true_item_id": "SKU004839",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0137.jpg",
+    "true_item_id": "SKU001197",
+    "conditions": [
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0138.jpg",
+    "true_item_id": "SKU002870",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0139.jpg",
+    "true_item_id": "SKU004494",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0140.jpg",
+    "true_item_id": "SKU001073",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0141.jpg",
+    "true_item_id": "SKU000116",
+    "conditions": [
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0142.jpg",
+    "true_item_id": "SKU004313",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0143.jpg",
+    "true_item_id": "SKU003553",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0144.jpg",
+    "true_item_id": "SKU001728",
+    "conditions": [
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0145.jpg",
+    "true_item_id": "SKU002063",
+    "conditions": [
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0146.jpg",
+    "true_item_id": "SKU002399",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0147.jpg",
+    "true_item_id": "SKU001970",
+    "conditions": [
+      "cluttered_background"
+    ]
+  },
+  {
+    "file": "auto_0148.jpg",
+    "true_item_id": "SKU002124",
+    "conditions": [
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0149.jpg",
+    "true_item_id": "SKU003432",
+    "conditions": [
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0150.jpg",
+    "true_item_id": "SKU000498",
+    "conditions": [
+      "cluttered_background",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0151.jpg",
+    "true_item_id": "SKU004778",
+    "conditions": [
+      "low_res",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0152.jpg",
+    "true_item_id": "SKU004109",
+    "conditions": [
+      "low_res",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0153.jpg",
+    "true_item_id": "SKU004288",
+    "conditions": [
+      "low_light",
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0154.jpg",
+    "true_item_id": "SKU003605",
+    "conditions": [
+      "low_light",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0155.jpg",
+    "true_item_id": "SKU001227",
+    "conditions": [
+      "low_res",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0156.jpg",
+    "true_item_id": "SKU003878",
+    "conditions": [
+      "low_light",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0157.jpg",
+    "true_item_id": "SKU002670",
+    "conditions": [
+      "low_res",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0158.jpg",
+    "true_item_id": "SKU000869",
+    "conditions": [
+      "low_light",
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0159.jpg",
+    "true_item_id": "SKU002035",
+    "conditions": [
+      "partial_occlusion",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0160.jpg",
+    "true_item_id": "SKU000345",
+    "conditions": [
+      "off_angle_crop",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0161.jpg",
+    "true_item_id": "SKU004601",
+    "conditions": [
+      "low_light",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0162.jpg",
+    "true_item_id": "SKU003631",
+    "conditions": [
+      "cluttered_background",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0163.jpg",
+    "true_item_id": "SKU002270",
+    "conditions": [
+      "low_res",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0164.jpg",
+    "true_item_id": "SKU004159",
+    "conditions": [
+      "partial_occlusion",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0165.jpg",
+    "true_item_id": "SKU004583",
+    "conditions": [
+      "off_angle_crop",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0166.jpg",
+    "true_item_id": "SKU001123",
+    "conditions": [
+      "overexposed",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0167.jpg",
+    "true_item_id": "SKU003214",
+    "conditions": [
+      "cluttered_background",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0168.jpg",
+    "true_item_id": "SKU000594",
+    "conditions": [
+      "reflection_glare",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0169.jpg",
+    "true_item_id": "SKU000599",
+    "conditions": [
+      "partial_occlusion",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0170.jpg",
+    "true_item_id": "SKU001002",
+    "conditions": [
+      "cluttered_background",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0171.jpg",
+    "true_item_id": "SKU001171",
+    "conditions": [
+      "motion_blur",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0172.jpg",
+    "true_item_id": "SKU003831",
+    "conditions": [
+      "overexposed",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0173.jpg",
+    "true_item_id": "SKU003262",
+    "conditions": [
+      "motion_blur",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0174.jpg",
+    "true_item_id": "SKU001832",
+    "conditions": [
+      "motion_blur",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0175.jpg",
+    "true_item_id": "SKU004223",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0176.jpg",
+    "true_item_id": "SKU003451",
+    "conditions": [
+      "cluttered_background",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0177.jpg",
+    "true_item_id": "SKU002609",
+    "conditions": [
+      "cluttered_background",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0178.jpg",
+    "true_item_id": "SKU000159",
+    "conditions": [
+      "cluttered_background",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0179.jpg",
+    "true_item_id": "SKU003608",
+    "conditions": [
+      "low_light",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0180.jpg",
+    "true_item_id": "SKU002715",
+    "conditions": [
+      "low_res",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0181.jpg",
+    "true_item_id": "SKU004196",
+    "conditions": [
+      "low_res",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0182.jpg",
+    "true_item_id": "SKU001872",
+    "conditions": [
+      "low_res",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0183.jpg",
+    "true_item_id": "SKU002175",
+    "conditions": [
+      "low_light",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0184.jpg",
+    "true_item_id": "SKU001487",
+    "conditions": [
+      "motion_blur",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0185.jpg",
+    "true_item_id": "SKU003459",
+    "conditions": [
+      "partial_occlusion",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0186.jpg",
+    "true_item_id": "SKU001223",
+    "conditions": [
+      "low_res",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0187.jpg",
+    "true_item_id": "SKU002679",
+    "conditions": [
+      "overexposed",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0188.jpg",
+    "true_item_id": "SKU000471",
+    "conditions": [
+      "motion_blur",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0189.jpg",
+    "true_item_id": "SKU000593",
+    "conditions": [
+      "low_light",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0190.jpg",
+    "true_item_id": "SKU005197",
+    "conditions": [
+      "overexposed",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0191.jpg",
+    "true_item_id": "SKU000686",
+    "conditions": [
+      "overexposed",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0192.jpg",
+    "true_item_id": "SKU002166",
+    "conditions": [
+      "off_angle_crop",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0193.jpg",
+    "true_item_id": "SKU000094",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0194.jpg",
+    "true_item_id": "SKU002194",
+    "conditions": [
+      "low_light",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0195.jpg",
+    "true_item_id": "SKU004316",
+    "conditions": [
+      "overexposed",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0196.jpg",
+    "true_item_id": "SKU001322",
+    "conditions": [
+      "low_light",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0197.jpg",
+    "true_item_id": "SKU001483",
+    "conditions": [
+      "partial_occlusion",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0198.jpg",
+    "true_item_id": "SKU005150",
+    "conditions": [
+      "partial_occlusion",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0199.jpg",
+    "true_item_id": "SKU002375",
+    "conditions": [
+      "motion_blur",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0200.jpg",
+    "true_item_id": "SKU002216",
+    "conditions": [
+      "cluttered_background",
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0201.jpg",
+    "true_item_id": "SKU002051",
+    "conditions": [
+      "low_light",
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0202.jpg",
+    "true_item_id": "SKU000151",
+    "conditions": [
+      "low_res",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0203.jpg",
+    "true_item_id": "SKU004212",
+    "conditions": [
+      "off_angle_crop",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0204.jpg",
+    "true_item_id": "SKU003662",
+    "conditions": [
+      "overexposed",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0205.jpg",
+    "true_item_id": "SKU004055",
+    "conditions": [
+      "low_res",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0206.jpg",
+    "true_item_id": "SKU004150",
+    "conditions": [
+      "partial_occlusion",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0207.jpg",
+    "true_item_id": "SKU001880",
+    "conditions": [
+      "cluttered_background",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0208.jpg",
+    "true_item_id": "SKU001144",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0209.jpg",
+    "true_item_id": "SKU000445",
+    "conditions": [
+      "low_light",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0210.jpg",
+    "true_item_id": "SKU000579",
+    "conditions": [
+      "partial_occlusion",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0211.jpg",
+    "true_item_id": "SKU001337",
+    "conditions": [
+      "low_light",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0212.jpg",
+    "true_item_id": "SKU003120",
+    "conditions": [
+      "low_res",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0213.jpg",
+    "true_item_id": "SKU004905",
+    "conditions": [
+      "partial_occlusion",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0214.jpg",
+    "true_item_id": "SKU000370",
+    "conditions": [
+      "motion_blur",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0215.jpg",
+    "true_item_id": "SKU001290",
+    "conditions": [
+      "off_angle_crop",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0216.jpg",
+    "true_item_id": "SKU000029",
+    "conditions": [
+      "cluttered_background",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0217.jpg",
+    "true_item_id": "SKU002694",
+    "conditions": [
+      "cluttered_background",
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0218.jpg",
+    "true_item_id": "SKU002002",
+    "conditions": [
+      "low_light",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0219.jpg",
+    "true_item_id": "SKU001784",
+    "conditions": [
+      "cluttered_background",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0220.jpg",
+    "true_item_id": "SKU000008",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0221.jpg",
+    "true_item_id": "SKU000687",
+    "conditions": [
+      "off_angle_crop",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0222.jpg",
+    "true_item_id": "SKU004118",
+    "conditions": [
+      "low_res",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0223.jpg",
+    "true_item_id": "SKU004134",
+    "conditions": [
+      "low_light",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0224.jpg",
+    "true_item_id": "SKU002164",
+    "conditions": [
+      "motion_blur",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0225.jpg",
+    "true_item_id": "SKU003272",
+    "conditions": [
+      "low_light",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0226.jpg",
+    "true_item_id": "SKU000184",
+    "conditions": [
+      "low_res",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0227.jpg",
+    "true_item_id": "SKU005158",
+    "conditions": [
+      "overexposed",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0228.jpg",
+    "true_item_id": "SKU004797",
+    "conditions": [
+      "low_res",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0229.jpg",
+    "true_item_id": "SKU004887",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0230.jpg",
+    "true_item_id": "SKU004048",
+    "conditions": [
+      "motion_blur",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0231.jpg",
+    "true_item_id": "SKU005068",
+    "conditions": [
+      "low_light",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0232.jpg",
+    "true_item_id": "SKU004202",
+    "conditions": [
+      "motion_blur",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0233.jpg",
+    "true_item_id": "SKU004290",
+    "conditions": [
+      "low_light",
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0234.jpg",
+    "true_item_id": "SKU004784",
+    "conditions": [
+      "overexposed",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0235.jpg",
+    "true_item_id": "SKU000255",
+    "conditions": [
+      "low_light",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0236.jpg",
+    "true_item_id": "SKU002954",
+    "conditions": [
+      "overexposed",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0237.jpg",
+    "true_item_id": "SKU003697",
+    "conditions": [
+      "low_light",
+      "low_res"
+    ]
+  },
+  {
+    "file": "auto_0238.jpg",
+    "true_item_id": "SKU005142",
+    "conditions": [
+      "low_light",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0239.jpg",
+    "true_item_id": "SKU004008",
+    "conditions": [
+      "low_light",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0240.jpg",
+    "true_item_id": "SKU003743",
+    "conditions": [
+      "low_res",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0241.jpg",
+    "true_item_id": "SKU004308",
+    "conditions": [
+      "off_angle_crop",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0242.jpg",
+    "true_item_id": "SKU002065",
+    "conditions": [
+      "overexposed",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0243.jpg",
+    "true_item_id": "SKU001923",
+    "conditions": [
+      "low_res",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0244.jpg",
+    "true_item_id": "SKU003771",
+    "conditions": [
+      "off_angle_crop",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0245.jpg",
+    "true_item_id": "SKU000628",
+    "conditions": [
+      "off_angle_crop",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0246.jpg",
+    "true_item_id": "SKU000382",
+    "conditions": [
+      "overexposed",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0247.jpg",
+    "true_item_id": "SKU004912",
+    "conditions": [
+      "cluttered_background",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0248.jpg",
+    "true_item_id": "SKU002080",
+    "conditions": [
+      "motion_blur",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0249.jpg",
+    "true_item_id": "SKU000102",
+    "conditions": [
+      "low_light",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0250.jpg",
+    "true_item_id": "SKU003979",
+    "conditions": [
+      "overexposed",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0251.jpg",
+    "true_item_id": "SKU001783",
+    "conditions": [
+      "off_angle_crop",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0252.jpg",
+    "true_item_id": "SKU004231",
+    "conditions": [
+      "off_angle_crop",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0253.jpg",
+    "true_item_id": "SKU003816",
+    "conditions": [
+      "off_angle_crop",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0254.jpg",
+    "true_item_id": "SKU004498",
+    "conditions": [
+      "partial_occlusion",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0255.jpg",
+    "true_item_id": "SKU000703",
+    "conditions": [
+      "low_light",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0256.jpg",
+    "true_item_id": "SKU002372",
+    "conditions": [
+      "off_angle_crop",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0257.jpg",
+    "true_item_id": "SKU004150",
+    "conditions": [
+      "off_angle_crop",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0258.jpg",
+    "true_item_id": "SKU003169",
+    "conditions": [
+      "low_res",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0259.jpg",
+    "true_item_id": "SKU000611",
+    "conditions": [
+      "motion_blur",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0260.jpg",
+    "true_item_id": "SKU004293",
+    "conditions": [
+      "cluttered_background",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0261.jpg",
+    "true_item_id": "SKU001086",
+    "conditions": [
+      "low_res",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0262.jpg",
+    "true_item_id": "SKU000923",
+    "conditions": [
+      "cluttered_background",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0263.jpg",
+    "true_item_id": "SKU004078",
+    "conditions": [
+      "off_angle_crop",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0264.jpg",
+    "true_item_id": "SKU000203",
+    "conditions": [
+      "low_light",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0265.jpg",
+    "true_item_id": "SKU004027",
+    "conditions": [
+      "off_angle_crop",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0266.jpg",
+    "true_item_id": "SKU002473",
+    "conditions": [
+      "motion_blur",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0267.jpg",
+    "true_item_id": "SKU002817",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0268.jpg",
+    "true_item_id": "SKU000990",
+    "conditions": [
+      "cluttered_background",
+      "low_light"
+    ]
+  },
+  {
+    "file": "auto_0269.jpg",
+    "true_item_id": "SKU002658",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0270.jpg",
+    "true_item_id": "SKU000983",
+    "conditions": [
+      "low_light",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0271.jpg",
+    "true_item_id": "SKU002374",
+    "conditions": [
+      "cluttered_background",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0272.jpg",
+    "true_item_id": "SKU000532",
+    "conditions": [
+      "low_res",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0273.jpg",
+    "true_item_id": "SKU004826",
+    "conditions": [
+      "cluttered_background",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0274.jpg",
+    "true_item_id": "SKU003506",
+    "conditions": [
+      "low_light",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0275.jpg",
+    "true_item_id": "SKU002298",
+    "conditions": [
+      "low_light",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0276.jpg",
+    "true_item_id": "SKU002339",
+    "conditions": [
+      "motion_blur",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0277.jpg",
+    "true_item_id": "SKU002176",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0278.jpg",
+    "true_item_id": "SKU001555",
+    "conditions": [
+      "cluttered_background",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0279.jpg",
+    "true_item_id": "SKU000237",
+    "conditions": [
+      "reflection_glare",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0280.jpg",
+    "true_item_id": "SKU000660",
+    "conditions": [
+      "low_light",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0281.jpg",
+    "true_item_id": "SKU003693",
+    "conditions": [
+      "motion_blur",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0282.jpg",
+    "true_item_id": "SKU003977",
+    "conditions": [
+      "low_light",
+      "motion_blur"
+    ]
+  },
+  {
+    "file": "auto_0283.jpg",
+    "true_item_id": "SKU001398",
+    "conditions": [
+      "off_angle_crop",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0284.jpg",
+    "true_item_id": "SKU002815",
+    "conditions": [
+      "low_res",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0285.jpg",
+    "true_item_id": "SKU002095",
+    "conditions": [
+      "partial_occlusion",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0286.jpg",
+    "true_item_id": "SKU001955",
+    "conditions": [
+      "off_angle_crop",
+      "partial_occlusion"
+    ]
+  },
+  {
+    "file": "auto_0287.jpg",
+    "true_item_id": "SKU004565",
+    "conditions": [
+      "overexposed",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0288.jpg",
+    "true_item_id": "SKU001370",
+    "conditions": [
+      "motion_blur",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0289.jpg",
+    "true_item_id": "SKU001702",
+    "conditions": [
+      "low_res",
+      "off_angle_crop"
+    ]
+  },
+  {
+    "file": "auto_0290.jpg",
+    "true_item_id": "SKU004508",
+    "conditions": [
+      "off_angle_crop",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0291.jpg",
+    "true_item_id": "SKU002726",
+    "conditions": [
+      "off_angle_crop",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0292.jpg",
+    "true_item_id": "SKU001143",
+    "conditions": [
+      "low_res",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0293.jpg",
+    "true_item_id": "SKU001999",
+    "conditions": [
+      "motion_blur",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0294.jpg",
+    "true_item_id": "SKU002801",
+    "conditions": [
+      "low_res",
+      "overexposed"
+    ]
+  },
+  {
+    "file": "auto_0295.jpg",
+    "true_item_id": "SKU002615",
+    "conditions": [
+      "cluttered_background",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0296.jpg",
+    "true_item_id": "SKU002116",
+    "conditions": [
+      "low_light",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0297.jpg",
+    "true_item_id": "SKU003381",
+    "conditions": [
+      "low_res",
+      "reflection_glare"
+    ]
+  },
+  {
+    "file": "auto_0298.jpg",
+    "true_item_id": "SKU004293",
+    "conditions": [
+      "reflection_glare",
+      "rotation"
+    ]
+  },
+  {
+    "file": "auto_0299.jpg",
+    "true_item_id": "SKU002213",
+    "conditions": [
+      "cluttered_background",
+      "low_light"
+    ]
+  }
+]
