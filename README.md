@@ -1,8 +1,4 @@
-# Catalogue Matcher
-
-Read **REPORT.md** first — it explains what's real, what's a sandbox stand-in (no scraping, no camera, no PyTorch — all explained there), and walks through every result.
-
-## Project layout
+## Project Directory layout
 ```
 scripts/
   gen_catalogue.py       synthetic catalogue generator (sandbox stand-in for scraping)
