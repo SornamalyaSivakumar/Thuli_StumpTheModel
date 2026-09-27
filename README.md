@@ -50,9 +50,3 @@ uvicorn backend.api:app --host 0.0.0.0 --port 8000
 # open http://localhost:8000/ in a browser
 ```
 
-## Swapping in a real embedding (CLIP)
-Everything (index, matcher, API, eval harness) only depends on
-`backend/embedder.py:embed_image(pil_img) -> np.float32 vector`. Replace its
-body with an `open_clip` forward pass (documented inline in that file),
-rebuild the index (`scripts/build_index.py`), and every script above works
-unchanged.
